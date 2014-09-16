@@ -1,6 +1,7 @@
 package example.canlib;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -58,5 +59,9 @@ implements OnClickListener {
         // EditTextに入力された名前を保存する
         String userName = mNameEditText.getText().toString();
         mSettingName.setName(userName);
+
+        // activityの切り替え
+        Intent intent = new Intent(SettingNameActivity.this, ListSelectorActivity.class);
+        startActivity(intent);
     }
 }

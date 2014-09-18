@@ -27,7 +27,10 @@
         </activity>
                 <activity
             android:name=".ListSelectorActivity"
-            android:label="@string/app_sub_name" />
+            android:label="@string/app_sub_name"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".UserBooksListFragment"></activity>
+        <activity android:name=".OtherBooksListFragment"></activity>
     </application>
 
 </manifest>

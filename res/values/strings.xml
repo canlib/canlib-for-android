@@ -5,5 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="app_sub_name">Canlib_List</string>
+    <string name="OK_data">データ取得中</string>
+    <string name="NG_data">データ取得失敗</string>
+    <string name="OK">OK</string>
+    <string name="addName">名前を入力してください</string>
+    <string name="no_data">書籍データはありません</string>
+    <string name="limit">返却期限</string>
 
 </resources>

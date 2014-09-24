@@ -12,23 +12,24 @@
     <application
         android:name="example.canlib.MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/canlib_logo"
+        android:icon="@drawable/canlib_logo2"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".SettingNameActivity"
             android:label="@string/app_name"
             android:onClick="SetButtonOnClick"
+            android:logo="@drawable/canlib_logo3"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
                 <activity
             android:name=".ListSelectorActivity"
             android:label="@string/app_name"
+            android:logo="@drawable/canlib_logo3"
             android:configChanges="orientation|screenSize" />
         <activity android:name=".UserBooksListFragment"></activity>
         <activity android:name=".OtherBooksListFragment"></activity>
